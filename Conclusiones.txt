@@ -1,0 +1,22 @@
+# Hallazgos y conclusiones del ejercicio
+
+## Hallazgos:
+
+ - Durante la ejecución de los escenarios, se identificó que debían ser ejecutados
+   en un orden específico para asegurar que cada operación se realizara de manera correcta. Esto
+   se debe a la dependencia entre los escenarios, como la necesidad de consultar o actualizar
+   una mascota previamente añadida y su consulta por estado.
+
+ - La documentación proporcionada por Swagger para la API de PetStore fue clara y útil para
+   entender el comportamiento esperado de cada endpoint.
+
+## Conclusión
+
+ - La integración de Swagger y la ejecución manual inicial de las pruebas en Postman proporcionaron
+   una visión clara del comportamiento funcional de la API de PetStore. Esto facilitó la
+   creación de los escenarios automatizados, ya que se pudo definir con mayor precisión qué validar
+   en cada caso.
+
+ - El uso de Karate Framework para la automatización resultó beneficioso, ya que permitió construir
+   un flujo de pruebas dinámico, capturando y reutilizando datos de una prueba en otra y el usu
+   de plantillas de datos. Además, la simplicidad de su sintaxis y fácil de entender.
